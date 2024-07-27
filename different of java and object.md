@@ -187,7 +187,7 @@ Một chương trình java thông thường tạo nhiều objects, mà như bạ
 
 **Ví dụ về object: "Dog(Chó)"**
 
-![Alt text](https://media.geeksforgeeks.org/wp-content/uploads/20230515233144/Classes-and-Objects-in-java-1-768.webp "example_dog_object")
+![Alt text](./Classes-and-Objects-in-java-1-768.webp "example_dog_object")
 
 <br />
 
@@ -207,7 +207,7 @@ Khi một object của class được tạo, **Class** được nói rằng là 
 
 Ví dụ:
 
-![Alt text](https://media.geeksforgeeks.org/wp-content/uploads/20230515233145/Classes-and-Objects-in-java-2-768.webp "example_declaring_objects")
+![Alt text](./Classes-and-Objects-in-java-2-768.webp "example_declaring_objects")
 
 <br />
 
@@ -331,7 +331,7 @@ Tuyên_bố(statement) sau(following) cung_cấp "tuffy", "papillon",5, và "whi
 ```
 Dog tuffy = new Dog("tuffy","papillon",5, "white");
 ```
-![Alt text](https://media.geeksforgeeks.org/wp-content/uploads/20230515233146/Classes-and-Objects-in-java-3-768.webp "example_constructor")
+![Alt text](./Classes-and-Objects-in-java-3-768.webp "example_constructor")
 
 *Note*:
 
