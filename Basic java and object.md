@@ -24,7 +24,7 @@ Cho phép chia sẻ đặc tính/hành vi và thuộc tính một cách tổng q
 Một **Class** bao gồm:
 - Class không phải là một thực thể. Nó chỉ là một bản mẫu hoặc bản thiết kế, từ đó object được tạo ra.
 - Class giúp nhóm các thuộc tính và hành vi.
-- Cấu trúc của **Class** class bao gồm:
+- Cấu trúc của **Class** bao gồm:
   - Các thuộc tính.
   - Các phương thức.
   - Constructor (hàm khởi tạo).
