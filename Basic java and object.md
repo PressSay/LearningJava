@@ -54,7 +54,7 @@ Khởi tạo object trong java bằng từ khóa **new**.
 
 <br />
 
-Ví dụ:
+Ví dụ 1:
 
 **Student.java**
 ```java
@@ -103,6 +103,79 @@ public class Main {
         int scoreOfNhu = nhu.learn("Tin");
         System.out.println(scoreOfNhu);
         nhu.goToSchool();
+    }
+}
+```
+
+<br />
+<br />
+
+## Java example_1
+
+<br />
+
+Ví dụ:
+**Point.java**
+```java
+public class Point {
+
+    private int x;
+    private int y;
+
+    // Ham_khoi_tao co_tham_so int x, int y constructor
+    Point(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
+
+    // Ham_khoi_tao mac_nhien
+    Point() {
+
+    }
+
+    public void display() {
+        System.out.println(this.x + " " + this.y);
+    }
+
+    public void move(int dx, int dy) {
+        this.x += dx; // x = x + dx
+        this.y += dy; // y = y + dx
+    }
+
+    public float distanceFromOrigin() {
+        float X = (0 - this.x) * (0 - this.x);
+        float Y = (0 - this.y) * (0 - this.y);
+
+        float result = (float) Math.sqrt(X + Y); // 64 -> 32
+        return result;
+    }
+
+    public float distanceFrom(Point p) {
+        if (p == null) {
+            return 0;
+        }
+        float X = (float) Math.pow(p.x - this.x, 2);
+        float Y = (float) Math.pow(p.y - this.y, 2);
+        float result = (float) Math.sqrt(X + Y);
+        return result;
+    }
+
+}
+```
+
+**Main.java**
+```java
+public class Main {
+    public static void main(String[] args) {
+        Point p1 = null;
+//                = new Point(1, 2);
+//        p1.move(1, 10);
+//        p1.display();
+//        System.out.println("Khoang cach p1 den toa do O la: " + p1.distanceFromOrigin());
+
+        Point p2 = new Point(-10, - 78);
+        System.out.println("Khoang cach p2 den p1 la: " + p2.distanceFrom(p1));
+
     }
 }
 ```
