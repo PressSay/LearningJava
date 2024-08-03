@@ -4,7 +4,7 @@
 
 **Slide**: https://github.com/PressSay/LearningJava/blob/master/Java%20package%2C%20static%2C%20final.pdf
 
-**Youtube**: 
+**Youtube**: https://youtu.be/OrLiQd9fkYo
 
 ## Package
 
